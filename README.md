@@ -3,6 +3,8 @@
 A community macOS 15 compatibility build of Tinycast v0.12.1 for Apple silicon. Source and validation: [liwenqiang1990/tinycast](https://github.com/liwenqiang1990/tinycast/tree/compat/v0.12.1-macos15-isolated).
 
 ```sh
+brew tap liwenqiang1990/sequoiacast
+brew trust --cask liwenqiang1990/sequoiacast/sequoiacast
 brew install --cask liwenqiang1990/sequoiacast/sequoiacast
 ```
 
@@ -26,3 +28,5 @@ brew uninstall --cask liwenqiang1990/sequoiacast/sequoiacast
 ```
 
 Uninstall removes the managed app bundle and preserves user settings/history. This tap intentionally has no `zap` stanza. Releases and tap updates are maintained manually; there are no publishing workflows.
+
+Homebrew 7 validation: the cask loaded successfully, passed style checks, fetched and verified the released ZIP, installed into an isolated validation directory, and passed the installed-bundle signature/architecture/minimum-OS audit. The validation installation was removed without a data purge. This did not replace or launch the user's existing app. On older Homebrew versions without `brew trust`, omit that command; if a future tap update prompts for renewed trust, review the cask before trusting it again.
