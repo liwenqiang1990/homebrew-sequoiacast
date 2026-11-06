@@ -1,6 +1,6 @@
 cask "sequoiacast" do
-  version "0.12.1-sequoia.2"
-  sha256 "c48a9e50f6c98524ddfdc04a3c3ef70a65668f9a2f8232df763a75b7744f304b"
+  version "0.12.1-sequoia.3"
+  sha256 "560f66455acd624e3568cdab3d697a65bbef44547c2d1109d4e0280fd2757abe"
 
   url "https://github.com/liwenqiang1990/tinycast/releases/download/v#{version}/SequoiaCast-#{version}-macos15-arm64.zip"
   name "SequoiaCast"
