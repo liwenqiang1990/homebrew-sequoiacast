@@ -1,6 +1,6 @@
 # SequoiaCast Homebrew tap
 
-A community macOS 15 compatibility build of Tinycast v0.12.1 for Apple silicon. Source and validation: [liwenqiang1990/tinycast](https://github.com/liwenqiang1990/tinycast/tree/compat/v0.12.1-macos15-isolated).
+SequoiaCast brings newer Tinycast releases, following the last upstream release with Sequoia support, to **macOS Sequoia and later on arm64 Macs**. Source and validation: [liwenqiang1990/tinycast](https://github.com/liwenqiang1990/tinycast).
 
 ```sh
 brew tap liwenqiang1990/sequoiacast
